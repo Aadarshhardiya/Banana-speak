@@ -24,12 +24,21 @@
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             text-align: center;
         }
+        
+        #output{
+            border: 1px solid black;
+            width: 50%;
+            margin: auto;
+            display:flow-root;
+            padding: 1rem;
+        }
+
+        
     </style>
     <!--One way of using Script tags 
         
         <script>
         console.log("hello script is working")
-    
         </script> -->
     
 </head>
@@ -40,6 +49,10 @@
     placeholder="put your sentence here in English and it will converted into banana"></textarea>
     <br>
       <button id="btn-translate">Translate</button>
+
+      <div style="font-size:larger;">Output will come here 👇 </div>
+      <div id="output"></div>
+
       <script src="app.js" type="text/javascript"></script>
 </body>
 </html>
